@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const functions_1 = require("./functions");
+const constants_1 = require("./constants");
+const constants_2 = require("./constants");
+const functions_2 = require("./functions");
+const functions_3 = require("./functions");
+const constants_3 = require("./constants");
+(0, functions_1.mySum)("myArr", constants_1.myArr);
+(0, functions_1.mySum)("mySecondArr", constants_2.mySecondArr);
+(0, functions_2.calcAverage)();
+(0, functions_3.goodbye)();
+console.log("Person: ", constants_3.Person);
